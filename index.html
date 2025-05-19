@@ -49,19 +49,19 @@
 <body>
 <div class = "class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
 	<div class = "text-center">
-		<h1> FVTTS :</h1>
-		<h2> Face-based Voice Synthesis for Text-To-Speech</h2>
+		<h1> K-DIALECT :</h1>
+		<h2> Korean Dialect Interactive Agent for Linguistic Engagement and Conversational Text-To-Speech</h2>
 	
 	
 	<div class="is-size-5 publication-authors">
 		<span class="author-block">
-			<a href="https://sites.google.com/view/minyoung2" target="_blank">Minyoung Lee</a>,
+			<a href="https://sites.google.com/view/seongyeonyang" target="_blank">Seongyeon Yang</a>,
+		</span>
+		<span class="author-block">
+			<a href="https://sites.google.com/view/myleeda2" target="_blank">Minyoung Lee</a>,
 		</span>
 		<span class="author-block">
 			<a href="https://sites.google.com/view/eunil" target="_blank">Eunil Park</a><sup>*</sup>,
-		</span>
-		<span class="author-block">
-			<a href="https://www.csehong.com/" target="_blank">Sungeun Hong</a>
 		</span>
 	</div>
 	
@@ -73,7 +73,7 @@
 	<div class="publication-links">
 		<!-- Arxiv PDF link -->
 	      	<span class="link-block">
-			<a href="https://www.isca-archive.org/interspeech_2024/lee24_interspeech.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+			<a href=" " target="_blank" class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
 				<i class="fas fa-file-pdf"></i>
                         </span>
@@ -83,11 +83,21 @@
 
 	    	<!-- Github link -->
 	    	<span class="link-block">
-			<a href="https://github.com/myleeee/FVTTS_code" target="_blank" class="external-link button is-normal is-rounded is-dark">
+			<a href=" " target="_blank" class="external-link button is-normal is-rounded is-dark">
                       	<span class="icon">
 				<i class="fab fa-github"></i>
                       	</span>
                       	<span>Code</span>
+                    	</a>
+	  	</span>
+
+		<!-- PPT link -->
+	    	<span class="link-block">
+			<a href=" " target="_blank" class="external-link button is-normal is-rounded is-dark">
+                      	<span class="icon">
+				<i class="fab fa-github"></i>
+                      	</span>
+                      	<span>Presentation</span>
                     	</a>
 	  	</span>
 	</div>
@@ -98,12 +108,14 @@
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">	
 	<!--  Abstract    -->
 	<p style="text-align: center;">
-	<img src="static/images/overview.jpg" width="800">
+	<video width="640" height="360" controls poster="poster.jpg">
+	<source src="static/video/demo.mp4" type="video/mp4">
+	</video>
 	</p>
 	
 	<p> 
 	<b>Abstract.</b>
-	A face is expressive of individual identity and used in various studies such as identification, authentication, and personalization. Similarly, a voice is a means of expressing individuals, and personalized voice synthesis based on voice reference is active. However, the voice-based method confronts voice sample dependency limitations. We propose Face-based Voice synthesis for Text-To-Speech (FVTTS) to synthesize voice from face images that are more expressive of personal identity than voice samples. A major challenge in face-based TTS methods is extracting distinct voice features highly related to voice from the face image. Our face encoder is designed to tackle this by integrating global facial attributes with voice-related features to represent personalized characteristics. FVTTS has shown superiority in various metrics and adaptability across different data domains. We establish a new standard in face-based TTS, leading the way in personalized voice synthesis.
+		Dialectal variations within a nation can significantly hinder communication, underscoring the need for flexible speech synthesis systems. However, prior speech synthesis methods that modify speaker styles or use indirect features like embeddings often fail to capture the unique aspects of dialects. The limited availability of dialect speech data and the difficulty in separating speaker and dialect information further complicate the development of high-quality dialect synthesis. To overcome these challenges and achieve realistic dialect speech, we present a novel dialect speech synthesis system. This system offers an intuitive web interface for instant dialect conversion output. By integrating dialect sentence transformation and dialect-specific acoustic modeling, our system achieves both high quality and interactivity. This work opens new avenues for various voice application services, providing a strong basis for real-time interactive deployment.
 	</p>
 	
 </div>
@@ -249,138 +261,6 @@
 
 
 
-<!-- Cross -->
-	
-<section class="hero is-small">
-	<div class="hero-body">
-		<div class="container">
-			<h2 class="title is-3">2. Results on Cross dataset</h2>
-			<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
-				<h2 id="sr-samples" style="text-align: center;">GRID dataset</h2>
-				<p>With GRID dataset, the out of distribution of seen dataset, we generate new voices.</p>
-				<table class="table table-hover pt-2">
-				<thead>
-					<tr>
-					<th style="text-align: center">Face</th>
-					<th style="text-align: center">Text</th>
-					<th style="text-align: center">Ground Truth</th>
-					<th style="text-align: center">yourTTS</th>
-					<th style="text-align: center">faceTTS</th>
-					<th style="text-align: center">FVTTS (ours) </th>
-					</tr>
-				</thead>
-			
-				<tbody>
-				<tr>
-					<td style="text-align: left;vertical-align:middle;width: 150px"><img class = "cropped" src="static/images/grid/S0_I0_T0.jpg"></td>
-					<td style="text-align: left;vertical-align:middle;width: 350px">We have ideas for how to make things better and I want to share three of them that we've picked up in our own work.</td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/GT/grid/S0_I0_T0.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/yourTTS/grid/S0_I0_T0.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/faceTTS/grid/S0_I0_T0.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/FVTTS/grid/S0_I0_T0.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-				</tr>
-	
-	
-				<tr>
-					<td style="text-align: left;vertical-align:middle;width: 150px"><img class = "cropped" src="static/images/grid/S1_I0_T0.jpg"></td>
-					<td style="text-align: left;vertical-align:middle;width: 350px">We have ideas for how to make things better and I want to share three of them that we've picked up in our own work.</td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/GT/grid/S1_I0_T0.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/yourTTS/grid/S1_I0_T0.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/faceTTS/grid/S1_I0_T0.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/FVTTS/grid/S1_I0_T0.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-				</tr>
-	
-	
-				<tr>
-					<td style="text-align: left;vertical-align:middle;width: 150px"><img class = "cropped" src="static/images/grid/S3_I1_T0.jpg"></td>
-					<td style="text-align: left;vertical-align:middle;width: 350px">We have ideas for how to make things better and I want to share three of them that we've picked up in our own work.</td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/GT/grid/S3_I1_T0.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/yourTTS/grid/S3_I1_T0.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/faceTTS/grid/S3_I1_T0.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/FVTTS/grid/S3_I1_T0.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-				</tr>
-			
-				</tbody>
-			</table>
-			</div>
-
-			
-			<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
-				<h2 id="sr-samples" style="text-align: center;">Animation dataset</h2>
-				<p>To apply FVTTS to animation images, we synthesize voice of animation characters. We select the human-like character images from open access video sharing platform YouTube. Note that the model is trained for generate human voice, so that the characters' voices do not similar to their original voices.</p>
-				<table class="table table-hover pt-2">
-				<thead>
-					<tr>
-					<th style="text-align: center">Face</th>
-					<th style="text-align: center">Text</th>
-					<th style="text-align: center">faceTTS</th>
-					<th style="text-align: center">FVTTS (ours) </th>
-					</tr>
-				</thead>
-			
-				<tbody>
-				<tr>
-					<td style="text-align: left;vertical-align:middle;width: 150px"><img class = "cropped" src="static/images/ani/al.jpg"></td>
-					<td style="text-align: left;vertical-align:middle;width: 350px">You should see these places, I mean there are a whole world outside of books and maps.</td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/faceTTS/ani/al.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/FVTTS/ani/al.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-				</tr>
-	
-	
-				<tr>
-					<td style="text-align: left;vertical-align:middle;width: 150px"><img class = "cropped" src="static/images/ani/sul.jpg"></td>
-					<td style="text-align: left;vertical-align:middle;width: 350px">You should see these places, I mean there are a whole world outside of books and maps.</td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/faceTTS/ani/sul.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/FVTTS/ani/sul.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-				</tr>
-	
-	
-				<tr>
-					<td style="text-align: left;vertical-align:middle;width: 150px"><img class = "cropped" src="static/images/ani/anna.jpg"></td>
-					<td style="text-align: left;vertical-align:middle;width: 350px">You don't have to live in fear, cause for the first time in forever I will be right there.</td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/faceTTS/ani/anna.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/FVTTS/ani/anna.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-				</tr>
-	
-	
-				<tr>
-					<td style="text-align: left;vertical-align:middle;width: 150px"><img class = "cropped" src="static/images/ani/elsa2.jpg"></td>
-					<td style="text-align: left;vertical-align:middle;width: 350px">Every day's a little harder as I feel my power grow. Don't you know there's part of me that longs to go into the unknown?</td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/faceTTS/ani/elsa2.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/FVTTS/ani/elsa2.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-				</tr>
-	
-	
-				<tr>
-					<td style="text-align: left;vertical-align:middle;width: 150px"><img class = "cropped" src="static/images/ani/christ.jpg"></td>
-					<td style="text-align: left;vertical-align:middle;width: 350px">But is this what it feels like to be growing apart. When did I become the one who’s always chasing your heart</td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/faceTTS/ani/christ.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/FVTTS/ani/christ.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-				</tr>
-	
-	
-				<tr>
-					<td style="text-align: left;vertical-align:middle;width: 150px"><img class = "cropped" src="static/images/ani/mo2.jpg"></td>
-					<td style="text-align: left;vertical-align:middle;width: 350px">There is nowhere you could go that I won't be with you and you will do wondrous thing.</td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/faceTTS/ani/mo2.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-					<td style="text-align: center;vertical-align:middle"><audio controls="controls" style="width: 180px;"><source src="static/wavs/FVTTS/ani/mo2.wav" autoplay="">Your browser does not support the audio element.</audio></td>
-				</tr>
-					
-			
-				</tbody>
-			</table>
-			</div>
-
-			
-		</div>
-	</div>
-</section>
-
-
-
-
-	
-	
 
   
 
