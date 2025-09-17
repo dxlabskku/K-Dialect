@@ -260,267 +260,248 @@
 <div class="hero-body">
 	<div class="container">
 		<h2 class="title is-3" style="text-align: center;">Korean Dialect Speech Comparison</h2>
-
 		<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
-			<div style="display: flex; align-items: center; gap: 20px;">
-				<div style="flex-shrink: 0; text-align: center;">
-					<img src="static/dialect/seoul/image.jpg" alt="Seoul Dialect Image" style="width: 150px; height: auto; display: block; margin-bottom: 5px;">
-					Standard
-				</div>
-				<div style="flex-grow: 1;">
-					<p style="margin: 0;">
-						몇달전 지인 결혼식에서 축가를 담당했었는데 신랑이 입장했을 때보다 박수를 많이 받은 것 같아 살짝 미안했습니다.<br>
-						A few months ago, I was in charge of the celebratory song at a friend's wedding, and I felt a little sorry because I seemed to receive more applause than the groom did when he entered.
-					</p>
-				</div>
-				<div style="display: flex; flex-direction: row; align-items: center; gap: 10px; flex-shrink: 0;">
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">XTTS (A)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/seoul/A.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">Ours (w/o PP) (B)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/seoul/B.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">Ours (C)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/seoul/C.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-				</div>
-			</div>
-			<div style="margin-top: 10px; text-align: left;">
-				<p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-					<b>Romanize:</b> Myeotdaljeon jiin gyeollonsigeseo chukgareul damdanghaesseonneunde sillang-i ipjanghaesseul ttaeboda baksureul mani badeun geot gata saljjak mianhaesseumnida.
-				</p>
-			</div>
+			<table class="table table-hover pt-2" style="width: 100%;">
+				<thead>
+					<tr>
+						<th style="text-align: center; width: 150px;">Image</th>
+						<th style="text-align: center; width: 350px;">Text (Korean)</th>
+						<th style="text-align: center; width: 350px;">Text (English)</th>
+						<th style="text-align: center; width: 180px;">XTTS (A)</th>
+						<th style="text-align: center; width: 180px;">Ours (w/o PP) (B)</th>
+						<th style="text-align: center; width: 180px;">Ours (C)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="text-align: center; vertical-align: middle;">
+							<img src="static/dialect/seoul/image.jpg" alt="Seoul Dialect Image" style="width: 150px; height: auto;">
+							<br>Standard
+						</td>
+						<td style="text-align: left; vertical-align: middle;">
+							몇달전 지인 결혼식에서 축가를 담당했었는데 신랑이 입장했을 때보다 박수를 많이 받은 것 같아 살짝 미안했습니다.
+						</td>
+						<td style="text-align: left; vertical-align: middle;">
+							A few months ago, I was in charge of the celebratory song at a friend's wedding, and I felt a little sorry because I seemed to receive more applause than the groom did when he entered.
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/seoul/A.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/seoul/B.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/seoul/C.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+					</tr>
+					<tr style="background-color: #f8f8f8;">
+						<td colspan="6" style="text-align: left; padding: 10px 20px;">
+							<p style="margin: 0; font-size: 0.9em; color: #6c757d;">
+								<b>Romanize:</b> Myeotdaljeon jiin gyeollonsigeseo chukgareul damdanghaesseonneunde sillang-i ipjanghaesseul ttaeboda baksureul mani badeun geot gata saljjak mianhaesseumnida.
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: center; vertical-align: middle;">
+							<img src="static/dialect/gangwon/image.jpg" alt="Gangwon Dialect Image" style="width: 150px; height: auto;">
+							<br>Gangwon
+						</td>
+						<td style="text-align: left; vertical-align: middle;">
+							남들은 시간이 왜 이렇게 느리게 가냐 이렇게 말을 하는 사람들도 많은데
+						</td>
+						<td style="text-align: left; vertical-align: middle;">
+							There are many people who say, 'Why does time go so slowly?'
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/gangwon/A.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/gangwon/B.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/gangwon/C.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+					</tr>
+					<tr style="background-color: #f8f8f8;">
+						<td colspan="6" style="text-align: left; padding: 10px 20px;">
+							<p style="margin: 0; font-size: 0.9em; color: #6c757d;">
+								<b>Romanize:</b> Namdeureun sigani wae ireoke neurige ganya ireoke mareul haneun saramdeuldo maneunde
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: center; vertical-align: middle;">
+							<img src="static/dialect/gyeongsang/image.jpg" alt="Gyeongsang Dialect Image" style="width: 150px; height: auto;">
+							<br>Gyeongsang
+						</td>
+						<td style="text-align: left; vertical-align: middle;">
+							괜찮게 했던 아르바이트가 카페 알바였던 것 같습니다
+						</td>
+						<td style="text-align: left; vertical-align: middle;">
+							I think the part-time job I was decent at was working at a cafe.
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/gyeongsang/A.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/gyeongsang/B.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/gyeongsang/C.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+					</tr>
+					<tr style="background-color: #f8f8f8;">
+						<td colspan="6" style="text-align: left; padding: 10px 20px;">
+							<p style="margin: 0; font-size: 0.9em; color: #6c757d;">
+								<b>Romanize:</b> Gwaenchanke haetdeon areubaiteuga kape albayeotdeon geot gatseumnida
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: center; vertical-align: middle;">
+							<img src="static/dialect/jeolla/image.jpg" alt="Jeolla Dialect Image" style="width: 150px; height: auto;">
+							<br>Jeolla
+						</td>
+						<td style="text-align: left; vertical-align: middle;">
+							그게 뭐야 그럼 그 인스타 팔로우를 받으면연애를 할 수 있잖아
+						</td>
+						<td style="text-align: left; vertical-align: middle;">
+							What's that? Then if you get that Instagram follow, you can get into a relationship, can't you?
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/jeolla/A.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/jeolla/B.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/jeolla/C.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+					</tr>
+					<tr style="background-color: #f8f8f8;">
+						<td colspan="6" style="text-align: left; padding: 10px 20px;">
+							<p style="margin: 0; font-size: 0.9em; color: #6c757d;">
+								<b>Romanize:</b> Geuge mwoya geureom geu instapeolloreul badeumyeon yeonaereul hal su itjana
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: center; vertical-align: middle;">
+							<img src="static/dialect/jeju/image.jpg" alt="Jeju Dialect Image" style="width: 150px; height: auto;">
+							<br>Jeju
+						</td>
+						<td style="text-align: left; vertical-align: middle;">
+							졸업식 같지도 않은 졸업식 해 가지고 잘도 서운허켜 아이들
+						</td>
+						<td style="text-align: left; vertical-align: middle;">
+							I was so sad, kids, because we had a graduation ceremony that wasn't even like a graduation ceremony.
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/jeju/A.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/jeju/B.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/jeju/C.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+					</tr>
+					<tr style="background-color: #f8f8f8;">
+						<td colspan="6" style="text-align: left; padding: 10px 20px;">
+							<p style="margin: 0; font-size: 0.9em; color: #6c757d;">
+								<b>Romanize:</b> Joreopsik gatjido anheun joreopsik hae gajigo jaldo seounheokyeo aideul
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td style="text-align: center; vertical-align: middle;">
+							<img src="static/dialect/chungcheong/image.jpg" alt="Chungcheong Dialect Image" style="width: 150px; height: auto;">
+							<br>Chungcheong
+						</td>
+						<td style="text-align: left; vertical-align: middle;">
+							전지현이랑 이민호랑 나온 푸른 바다의 전설이라는 드라마가 있는데
+						</td>
+						<td style="text-align: left; vertical-align: middle;">
+							There's a drama called 'Legend of the Blue Sea' that starred Jun Ji-hyun and Lee Min-ho.
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/chungcheong/A.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/chungcheong/B.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+						<td style="text-align: center; vertical-align: middle;">
+							<audio controls="controls" style="width: 150px;">
+								<source src="static/dialect/chungcheong/C.wav" type="audio/wav">
+								Your browser does not support the audio element.
+							</audio>
+						</td>
+					</tr>
+					<tr style="background-color: #f8f8f8;">
+						<td colspan="6" style="text-align: left; padding: 10px 20px;">
+							<p style="margin: 0; font-size: 0.9em; color: #6c757d;">
+								<b>Romanize:</b> Jeonjihyeonieang iminho-rang naon pureun bada-ui jeonseoriraneun deuramaga itneunde
+							</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
-
-		<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
-			<div style="display: flex; align-items: center; gap: 20px;">
-				<div style="flex-shrink: 0; text-align: center;">
-					<img src="static/dialect/gangwon/image.jpg" alt="Gangwon Dialect Image" style="width: 150px; height: auto; display: block; margin-bottom: 5px;">
-					Gangwon
-				</div>
-				<div style="flex-grow: 1;">
-					<p style="margin: 0;">
-						남들은 시간이 왜 이렇게 느리게 가냐 이렇게 말을 하는 사람들도 많은데<br>
-						There are many people who say, 'Why does time go so slowly?'
-					</p>
-				</div>
-				<div style="display: flex; flex-direction: row; align-items: center; gap: 10px; flex-shrink: 0;">
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">XTTS (A)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/gangwon/A.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">Ours (w/o PP) (B)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/gangwon/B.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">Ours (C)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/gangwon/C.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-				</div>
-			</div>
-			<div style="margin-top: 10px; text-align: left;">
-				<p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-					<b>Romanize:</b> Namdeureun sigani wae ireoke neurige ganya ireoke mareul haneun saramdeuldo maneunde
-				</p>
-			</div>
-		</div>
-
-		<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
-			<div style="display: flex; align-items: center; gap: 20px;">
-				<div style="flex-shrink: 0; text-align: center;">
-					<img src="static/dialect/gyeongsang/image.jpg" alt="Gyeongsang Dialect Image" style="width: 150px; height: auto; display: block; margin-bottom: 5px;">
-					Gyeongsang
-				</div>
-				<div style="flex-grow: 1;">
-					<p style="margin: 0;">
-						괜찮게 했던 아르바이트가 카페 알바였던 것 같습니다<br>
-						I think the part-time job I was decent at was working at a cafe.
-					</p>
-				</div>
-				<div style="display: flex; flex-direction: row; align-items: center; gap: 10px; flex-shrink: 0;">
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">XTTS (A)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/gyeongsang/A.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">Ours (w/o PP) (B)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/gyeongsang/B.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">Ours (C)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/gyeongsang/C.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-				</div>
-			</div>
-			<div style="margin-top: 10px; text-align: left;">
-				<p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-					<b>Romanize:</b> Gwaenchanke haetdeon areubaiteuga kape albayeotdeon geot gatseumnida
-				</p>
-			</div>
-		</div>
-
-		<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
-			<div style="display: flex; align-items: center; gap: 20px;">
-				<div style="flex-shrink: 0; text-align: center;">
-					<img src="static/dialect/jeolla/image.jpg" alt="Jeolla Dialect Image" style="width: 150px; height: auto; display: block; margin-bottom: 5px;">
-					Jeolla
-				</div>
-				<div style="flex-grow: 1;">
-					<p style="margin: 0;">
-						그게 뭐야 그럼 그 인스타 팔로우를 받으면연애를 할 수 있잖아<br>
-						What's that? Then if you get that Instagram follow, you can get into a relationship, can't you?
-					</p>
-				</div>
-				<div style="display: flex; flex-direction: row; align-items: center; gap: 10px; flex-shrink: 0;">
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">XTTS (A)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/jeolla/A.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">Ours (w/o PP) (B)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/jeolla/B.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">Ours (C)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/jeolla/C.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-				</div>
-			</div>
-			<div style="margin-top: 10px; text-align: left;">
-				<p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-					<b>Romanize:</b> Geuge mwoya geureom geu instapeolloreul badeumyeon yeonaereul hal su itjana
-				</p>
-			</div>
-		</div>
-
-		<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
-			<div style="display: flex; align-items: center; gap: 20px;">
-				<div style="flex-shrink: 0; text-align: center;">
-					<img src="static/dialect/jeju/image.jpg" alt="Jeju Dialect Image" style="width: 150px; height: auto; display: block; margin-bottom: 5px;">
-					Jeju
-				</div>
-				<div style="flex-grow: 1;">
-					<p style="margin: 0;">
-						졸업식 같지도 않은 졸업식 해 가지고 잘도 서운허켜 아이들<br>
-						I was so sad, kids, because we had a graduation ceremony that wasn't even like a graduation ceremony.
-					</p>
-				</div>
-				<div style="display: flex; flex-direction: row; align-items: center; gap: 10px; flex-shrink: 0;">
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">XTTS (A)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/jeju/A.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">Ours (w/o PP) (B)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/jeju/B.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">Ours (C)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/jeju/C.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-				</div>
-			</div>
-			<div style="margin-top: 10px; text-align: left;">
-				<p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-					<b>Romanize:</b> Joreopsik gatjido anheun joreopsik hae gajigo jaldo seounheokyeo aideul
-				</p>
-			</div>
-		</div>
-
-		<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
-			<div style="display: flex; align-items: center; gap: 20px;">
-				<div style="flex-shrink: 0; text-align: center;">
-					<img src="static/dialect/chungcheong/image.jpg" alt="Chungcheong Dialect Image" style="width: 150px; height: auto; display: block; margin-bottom: 5px;">
-					Chungcheong
-				</div>
-				<div style="flex-grow: 1;">
-					<p style="margin: 0;">
-						전지현이랑 이민호랑 나온 푸른 바다의 전설이라는 드라마가 있는데<br>
-						There's a drama called 'Legend of the Blue Sea' that starred Jun Ji-hyun and Lee Min-ho.
-					</p>
-				</div>
-				<div style="display: flex; flex-direction: row; align-items: center; gap: 10px; flex-shrink: 0;">
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">XTTS (A)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/chungcheong/A.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">Ours (w/o PP) (B)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/chungcheong/B.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-					<div>
-						<p style="text-align: center; font-size: 0.8em; margin: 0;">Ours (C)</p>
-						<audio controls="controls" style="width: 150px;">
-							<source src="static/dialect/chungcheong/C.wav" type="audio/wav">
-							Your browser does not support the audio element.
-						</audio>
-					</div>
-				</div>
-			</div>
-			<div style="margin-top: 10px; text-align: left;">
-				<p style="margin: 0; font-size: 0.9em; color: #6c757d;">
-					<b>Romanize:</b> Jeonjihyeonieang iminho-rang naon pureun bada-ui jeonseoriraneun deuramaga itneunde
-				</p>
-			</div>
-		</div>
-		
 	</div>
 </div>
+
+
 
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">	
 	<!--  Abstract    -->
